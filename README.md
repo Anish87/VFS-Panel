@@ -1,2 +1,2 @@
-# VFS Panel
- This repository contains the full Vice Freemode Server website and panel.
+# Vice Freemode Server
+This repository contains all the files of Vice Freemode Server website and panel.
