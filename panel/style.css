@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: 1px;  /* Firefox */
+    scrollbar-color: #f5fffa #111;
+    scrollbar-width: thin;
+}
+
+*::-webkit-scrollbar {
+    background: #111;
+    width: 5px;
+}
+
+*::-webkit-scrollbar-thumb{
+    background: #f5fffa;
+}
+
+*:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.banner {
+    color: #F5FFFA;
+    font-family: 'Monda', sans-serif;
+    height: 80vh;
+    background-image: url(./images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner > h1 {
+    padding: 10px 15px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #004FEAaa;
+}
+
+.navbar-toggler:focus {
+    border: none !important;
+    border-radius: none !important;
+    outline: none !important;
+}
+
+.main-content {
+    font-family: 'Monda', sans-serif;
+    color: #F5FFFA;
+}
+
+.home-content {
+    font-family: 'Monda', sans-serif;
+    color: #F5FFFA;
+}
+
+.stats-content {
+    font-family: 'Monda', sans-serif;
+    color: #F5FFFA;
+    height: 30vh;
+}
+
+.bodystats-content {
+    font-family: 'Monda', sans-serif;
+    color: #F5FFFA;
+    height: 82vh;
+}
+
+.stats-content {
+    font-family: 'Monda', sans-serif;
+    color: #F5FFFA;
+    height: 115vh;
+}
+
+.p-info {
+    background: #004FEA;
+}
+
+.info-cards {
+    background: #191919 !important;
+    border: none !important;
+}
+
+.info-header {
+    background: #004FEA !important;
+}
+
+.dropdown-menu-dark {
+    background: #191919 !important;
+}
+
+.dropdown-item:hover{
+    background: #004FEA !important;
+}
+
+footer{
+    font-family: 'Monda', sans-serif;
+}
+
+.blue-hr{
+    border: 1px solid #004FEA;
+    opacity: 1;
+}
+
+.username-span{
+    color: #004FEA;
+}
